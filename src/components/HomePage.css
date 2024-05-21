@@ -1,0 +1,66 @@
+.home-page {
+  padding: 20px;
+}
+
+.home-page select {
+  margin-bottom: 20px;
+  width: 100px;
+  padding: 8px;
+  overflow: none;
+}
+
+button{
+  padding: .7rem;
+  border: none;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  background-color: rgba(144, 238, 144, 0.689);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+button:hover{
+  background-color: #00000092;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.scenario-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: auto;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+  background: transparent;
+}
+.para-id{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  width: 915px; /* Container width */
+  height: 900px; /* Container height */
+  border: 1px solid black; /* Optional: Add border to visualize the container */
+  overflow: hidden; /* Hide vehicles that move outside */
+}
+
+.vehicles {
+  position: relative;
+}
+
+.vehicle {
+  position: absolute; /* Position vehicles absolutely */
+  border-radius: 50%;
+  width: 50px;
+
+  background-color: white; /* Ensure background color */
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}

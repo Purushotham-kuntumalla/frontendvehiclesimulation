@@ -1,0 +1,39 @@
+.add-vehicle-page {
+    padding: 20px;
+  }
+  
+  .add-vehicle-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-vehicle-page form div {
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  
+  .add-vehicle-page form button {
+    margin-top: 10px;
+    width: 250px;
+  }
+    
+  .btn-3{
+    margin-top: 10px;
+    width: 250px;
+    background: #5614B0;  /* fallback for old browsers */
+
+  }
+
+  .btn-3:hover{
+    background: #1fffcb8a;  /* fallback for old browsers */
+color: #000;
+transition: all 0.5s ease;
+transform: translateX(5px);
+  }
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

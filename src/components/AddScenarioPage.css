@@ -1,0 +1,42 @@
+.add-scenario-page {
+    padding: 20px;
+}
+  
+  .add-scenario-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .add-scenario-page form div {
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  
+  
+  .btn{
+    margin-top: 10px;
+    width: 250px;
+    background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .btn:hover{
+    background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+transition: all 0.5s ease;
+transform: translateX(5px);
+  }
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  input{
+    outline: none;
+  }
